@@ -19,6 +19,9 @@
 void setup() {
     WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0); // disable brownout detector
 
+    pinMode(4, OUTPUT);
+    digitalWrite(4, LOW);
+
 #ifdef SERIAL_DEBUG
     Serial.begin(115200);
     Serial.setDebugOutput(true);
