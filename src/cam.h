@@ -65,7 +65,7 @@ bool takePicture() {
     }
 
     DBG("Camera capture success");
-    uploadFile(fb->buf, fb->len, "zkouska.jpg");
+    uploadFile(fb->buf, fb->len, FILE_NAME);
 
     esp_camera_fb_return(fb);
 
