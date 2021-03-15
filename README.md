@@ -1,1 +1,1 @@
-# esp32-camera-ftp
+# ESP32 upload camera over FTP
